@@ -170,7 +170,7 @@ export const companies = [
     },
 ];
 
-export const workExperience = [
+export const services = [
     {
         id: 1,
         title: "Frontend Engineer Intern",
@@ -199,6 +199,20 @@ export const workExperience = [
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
     },
+    {
+        id: 5,
+        title: "FullStack Developer",
+        desc: "Developed and maintained user-facing features using modern frontend technologies.",
+        className: "md:col-span-2",
+        thumbnail: "/exp5.svg",
+    },
+    {
+        id: 6,
+        title: "FullStack Developer",
+        desc: "Developed and maintained user-facing features using modern frontend technologies.",
+        className: "md:col-span-2",
+        thumbnail: "/exp6.svg",
+    }
 ];
 
 export const socialMedia = [
