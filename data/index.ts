@@ -104,38 +104,6 @@ export const projects = [
     },
 ];
 
-export const testimonials = [
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-];
 
 export const companies = [
     {
@@ -173,45 +141,45 @@ export const companies = [
 export const services = [
     {
         id: 1,
-        title: "Frontend Engineer Intern",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+        title: "Desarrollo de Sitios Web y Aplicaciones Web Responsive",
+        desc: "Creación sitios web y aplicaciones web modernos, a medida y adaptables, brindando experiencias de usuario excepcionales en todos los dispositivos.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
-        title: "Mobile App Dev - JSM Tech",
-        desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-        className: "md:col-span-2", // change to md:col-span-2
+        title: "Integración de APIs y Desarrollo Backend",
+        desc: "Amplia experiencia en el desarrollo backend y la integración de APIs para potenciar la funcionalidad de sitios web y aplicaciones.",
+        className: "md:col-span-2",
         thumbnail: "/exp2.svg",
     },
     {
         id: 3,
-        title: "Freelance App Dev Project",
-        desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-        className: "md:col-span-2", // change to md:col-span-2
+        title: "Optimización de Velocidad y Rendimiento",
+        desc: "Me especializo en mejorar la velocidad y el rendimiento de sitios web, garantizando tiempos de carga rápidos y una experiencia fluida.",
+        className: "md:col-span-2",
         thumbnail: "/exp3.svg",
     },
     {
         id: 4,
-        title: "Lead Frontend Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
+        title: "Desarrollo de E-commerce",
+        desc: "Desarrollo tiendas online personalizadas, efectivas y fáciles de usar, potenciando las ventas y optimizando la gestión de inventario.",
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
     },
     {
         id: 5,
-        title: "FullStack Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
+        title: "Optimización SEO",
+        desc: "Ofrezco servicios de SEO integral para mejorar la visibilidad en motores de búsqueda y aumentar el tráfico orgánico.",
         className: "md:col-span-2",
-        thumbnail: "/exp5.svg",
+        thumbnail: "/exp6.png",
     },
     {
         id: 6,
-        title: "FullStack Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
+        title: "Mantenimiento y Soporte Técnico",
+        desc: "Ofrezco servicios de mantenimiento y soporte técnico para asegurar un funcionamiento continuo y sin problemas de los sitios y aplicaciones web.",
         className: "md:col-span-2",
-        thumbnail: "/exp6.svg",
+        thumbnail: "/exp5.png",
     }
 ];
 

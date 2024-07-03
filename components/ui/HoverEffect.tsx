@@ -25,7 +25,7 @@ export const HoverEffect = ({
         <div className="flex flex-col lg:flex-row py-10 gap-20 justify-center items-center max-w-4xl mx-auto">
             <div
                 className={cn(
-                    "flex flex-row lg:flex-col",
+                    "grid grid-cols-2 lg:flex lg:flex-col",
                     className
                 )}
             >
