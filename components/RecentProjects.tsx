@@ -13,7 +13,7 @@ const RecentProjects = () => {
                 {projects.map(({ id, title, des, img, iconLists, link }) => (
                     <div key={id} className="sm:h-[41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
                         <PinContainer
-                            title={link}
+                            title="Visitar"
                             href={link}
 
                         >
@@ -21,12 +21,12 @@ const RecentProjects = () => {
                                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162D]">
                                     <img src="/bg.png" alt="bg-img" />
                                 </div>
-                                <img src={img} alt={title} className="absolute bottom-0" />
+                                <img src={img} alt={title} className="absolute -bottom-4 rotate-2 w-[95%] rounded-md" />
                             </div>
                             <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                                 {title}
                             </h1>
-                            <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
+                            <p className="lg:text-base lg:font-normal font-light text-sm line-clamp-2">
                                 {des}
                             </p>
                             <div className="flex items-center justify-between mt-7 mb-3">
