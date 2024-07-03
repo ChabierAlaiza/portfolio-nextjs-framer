@@ -229,3 +229,59 @@ export const socialMedia = [
         img: "/link.svg",
     },
 ];
+
+export const workExperiences = [
+
+    {
+        id: 1,
+        name: "Desarrollador Fullstack Autónomo",
+        company: "Freelance",
+        duration: "2020 - Actualidad",
+        functions: [
+            "Desarrollo de sitios web con WordPress para diferentes clientes.",
+            "Desarrollo de aplicaciones web con ANGULAR para el frontend.",
+            "Creación de APIs con C#, ASP .Net Core y MySQL.",
+            "Maquetación web con HTML, CSS y JS.",
+            "Mantenimiento de sitios web."
+        ]
+    },
+    {
+        id: 2,
+        name: "Desarrollador Web Fullstack",
+        company: "Diaple Networking SL",
+        duration: "2021 - 2023",
+        functions: [
+            "Maquetación web con HTML, CSS y JS.",
+            "Desarrollo Backend C# con entorno ASP.Net Core, Entity Framework y MySQL",
+            "Desarrollo Frontend con ANGULAR 6 y posteriores.",
+            "Experiencia con PHP y Laravel.",
+            "Desarrollo de sitios web personalizados con WordPress."
+        ]
+    },
+    {
+        id: 3,
+        name: "Director Academia de Pádel",
+        company: "Elite Padel Academy",
+        duration: "2023 - Actualidad",
+        functions: [
+            "Dirección de la Academia de Pádel.",
+            "Monitor de la Escuela de Competición y Alto Rendimiento.",
+            "Coaching en competiciones.",
+            "Gestión de la academia."
+        ]
+    },
+    {
+        id: 4,
+        name: "Técnico Nacional de Pádel",
+        company: "Pádel Zaragoza 2008 SL",
+        duration: "2015 - 2023",
+        functions: [
+            "Monitor de pádel en escuela de menores y de adultos en todos los niveles.",
+            "Monitor de la Escuela de Competición y Alto Rendimiento.",
+            "Coaching en competiciones de menores.",
+            "Subdirector de la Escuela de Competición.",
+            "Gestión y planificación de entrenamientos diaria, mensual y anual.",
+            "Gestión y organización de actividades, eventos y torneos del club."
+        ]
+    }
+]
